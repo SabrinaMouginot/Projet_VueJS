@@ -1,0 +1,12 @@
+.body {
+    background-color: black;
+}
+.slider{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.slider_content {
+    display: flex;
+    grid-auto-flow: row;
+}

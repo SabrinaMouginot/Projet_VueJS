@@ -1,0 +1,89 @@
+body{
+    background: #e2cbb9;
+    image-resolution: 10%;
+    font-family: Snell Roundhand, cursive;
+    image-orientation: from-image;
+}
+div#wrapper
+
+{
+    position: relative;
+    left: 5px;
+    right: 200px; 
+    width: 200px;
+    margin: 10px 20%;
+    margin-top:2px;
+
+}
+
+#container
+{
+    
+    right: 250px; 
+    width: 200px;
+    margin: 100px;
+    margin-top:2px;
+
+
+}
+.footer{ 
+    margin: 40px 60%;
+    
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(225, 225, 187);
+    }
+  }
+div#container
+{ 
+    font-optical-sizing: 3Opx;
+    z-index:unset;
+	width: 400px ;
+	margin: 0 auto ;
+	text-align: left 50px;
+	border: 2px solid rgb(187, 185, 68) ;
+	background: #fff ;
+    
+}
+form {
+   
+    padding-left: 40%;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(125, 102, 27);
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #ee8c1b;
+    color: rgb(78, 56, 7);
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #c4b40b;
+    border: 1px solid #e4d614;
+}
